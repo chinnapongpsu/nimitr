@@ -119,15 +119,6 @@ export const RegisterPage = () => {
         xs={0}
         md={0}
         lg={8}
-        sx={{
-          background: 'url("/sampleAR1.gif")',
-          zIndex: -1,
-          width: { xs: "0px" },
-          position: "relative",
-          backgroundSize: { lg: "cover", xs: "contain", sm: "contain" },
-          backgroundRepeat: "no-repeat",
-          display: { xs: "none", sm: "flex" },
-        }}
       >
         <Box
           sx={{
