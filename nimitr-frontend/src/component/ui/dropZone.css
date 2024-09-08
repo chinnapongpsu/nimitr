@@ -1,0 +1,8 @@
+.dz-ui-footer {
+    height: auto !important;
+}
+@media (max-width: 600px) {
+    .dropzone-ui {
+        min-height: 220px !important
+    }
+}

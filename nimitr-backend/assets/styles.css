@@ -1,0 +1,123 @@
+#loading-finished-dialog,
+#Pleaseupgrade,
+.a-loader-title {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+#loading-finished-dialog>div,
+#Pleaseupgrade>div,
+.pdfview,
+.pdfviewmindar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.pdfview,
+.pdfviewmindar {
+    width: 80vw;
+    height: 80vh;
+    display: none;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdfviewmindar{
+    position: fixed;
+} 
+#loading-finished-dialog>div>h2 {
+    color: yellow;
+}
+
+#ok-button,
+#imageTrackingButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#monitor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 30vh;
+    display: none;
+}
+
+#monitor .screen {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://ssouth.azurewebsites.net/wp-content/uploads/2023/04/ss_logo.png');
+    background-position: center;
+}
+
+html,
+body {
+    overflow: hidden;
+    font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.arjs-loader {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arjs-loader div {
+    text-align: center;
+    font-size: 1.25em;
+    color: white;
+}
+
+.floating-button {
+    display: none;
+}
+
+#hideStillButton {
+    position: absolute;
+    display: none;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 10;
+    color: black;
+    text-align: center;
+}

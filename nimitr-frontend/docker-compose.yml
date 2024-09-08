@@ -1,0 +1,18 @@
+services:
+  web:
+    build: .
+    restart: always
+    ports:
+      - 8080:80
+    container_name: web
+    hostname: web
+    networks:
+      - arnimit
+    labels:
+      - traefik.web.frontend.rule=Host:localhost
+      - traefik.web.port=80
+      - traefik.docker.network=arnimit
+
+networks:
+  arnimit:
+    external: true 

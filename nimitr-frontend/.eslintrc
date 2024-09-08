@@ -1,0 +1,11 @@
+{
+    "extends": ["iinitz/js-react"],
+    "rules":{
+        "linebreak-style": 0,
+        "no-underscore-dangle":"off",
+        "no-use-before-define":"off",
+        "no-console":"off",
+        "consistent-return":"off"
+      },
+      "plugins": ["only-warn"]
+  }
